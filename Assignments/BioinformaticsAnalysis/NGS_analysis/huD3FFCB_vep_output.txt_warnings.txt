@@ -1,0 +1,4 @@
+WARNING: No variant found with ID '##fileformat=VCFv4.2'
+WARNING: No variant found with ID '##contig=<ID=chr6,length=171115067>'
+WARNING: No variant found with ID '#CHROMPOSIDREFALTQUALFILTERINFO'
+WARNING: No variant found with ID 'chr615241774.AG.PASS.'

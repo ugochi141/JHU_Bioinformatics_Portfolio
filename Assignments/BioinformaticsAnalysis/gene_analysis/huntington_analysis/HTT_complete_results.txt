@@ -1,0 +1,41 @@
+HUNTINGTON'S DISEASE (HTT) GENE ANALYSIS
+========================================
+Analysis Date: 20269 
+
+GENE INFORMATION:
+-----------------
+Gene Symbol: HTT
+Ensembl ID: ENSG00000197386 
+Chromosome: 4 
+Position: 3,041,363 - 3,243,957 
+Strand: Forward (+) 
+
+TRANSCRIPT INFORMATION:
+----------------------
+Total number of transcripts: 23 
+Canonical transcript: NA NA NA NA NA NA NA ENST00000355072 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 
+
+Transcript type breakdown:
+
+       nonsense_mediated_decay                 protein_coding 
+                             4                              5 
+protein_coding_CDS_not_defined                retained_intron 
+                             4                             10 
+
+
+EXON 1 INFORMATION (CAG repeat location):
+----------------------------------------
+Exon ID: ENSE00001251499 
+Position: 3074681 - 3075088 
+
+
+KEY CLINICAL INFORMATION:
+------------------------
+- CAG repeat location: Exon 1 of HTT gene
+- Normal CAG repeats: 10-35
+- Intermediate: 27-35 (may show reduced penetrance)
+- Pathological: >36 repeats
+- Full penetrance: >40 repeats
+- Juvenile onset: >60 repeats
+- Inheritance pattern: Autosomal dominant
+- Genetic anticipation: Yes (especially paternal transmission)

@@ -1,0 +1,6 @@
+>seq2
+GCCCATTTT
+||
+>seq1
+GAAACCAA
+||

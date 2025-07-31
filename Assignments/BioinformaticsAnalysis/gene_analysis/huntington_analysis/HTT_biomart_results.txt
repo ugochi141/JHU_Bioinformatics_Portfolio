@@ -1,0 +1,30 @@
+HUNTINGTON'S DISEASE BIOMART ANALYSIS
+=====================================
+Analysis Date: 20269 
+
+1. HTT GENE INFORMATION
+-----------------------
+  hgnc_symbol ensembl_gene_id chromosome_name start_position end_position
+1         HTT ENSG00000197386               4        3041363      3243957
+  strand                                   description
+1      1 huntingtin [Source:HGNC Symbol;Acc:HGNC:4851]
+
+2. TRANSCRIPT INFORMATION
+-------------------------
+Total number of transcripts: 23 
+Transcript types:
+
+       nonsense_mediated_decay                 protein_coding 
+                             4                              5 
+protein_coding_CDS_not_defined                retained_intron 
+                             4                             10 
+
+3. EXON 1 INFORMATION (CAG repeat location)
+--------------------------------------------
+
+4. KEY DISEASE FACTS
+--------------------
+- Normal CAG repeats: 10-35
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+- Genetic anticipation observed

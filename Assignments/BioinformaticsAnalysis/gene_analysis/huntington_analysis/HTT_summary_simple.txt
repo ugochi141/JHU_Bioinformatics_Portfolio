@@ -1,0 +1,483 @@
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: ENST00000355072
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+
+HTT GENE ANALYSIS SUMMARY
+========================
+
+Gene: HTT (Huntingtin)
+Chromosome: 4
+Position: 3,041,363 - 3,243,957
+Total transcripts: 23
+Canonical transcript: NA
+
+CAG REPEAT INFORMATION:
+- Location: Exon 1
+- Normal range: 10-35 repeats
+- Pathological: >36 repeats
+- Inheritance: Autosomal dominant
+
+TRANSCRIPT TYPES:
+- nonsense_mediated_decay: 4
+- protein_coding: 5
+- protein_coding_CDS_not_defined: 4
+- retained_intron: 10
+

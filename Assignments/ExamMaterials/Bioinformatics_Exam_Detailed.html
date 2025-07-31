@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bioinformatics Exam - Complete Answers</title>
+<style>
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 40px; 
+    line-height: 1.6;
+    color: #333;
+}
+h1 { 
+    color: #2c3e50; 
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+}
+h2 { 
+    color: #34495e; 
+    background: #ecf0f1;
+    padding: 10px;
+    margin-top: 30px;
+}
+h3 { 
+    color: #7f8c8d; 
+    margin-top: 20px;
+}
+pre { 
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 15px;
+    overflow-x: auto;
+    border-radius: 5px;
+}
+.sequence {
+    background: #f9f9f9;
+    padding: 10px;
+    font-family: monospace;
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+}
+table { 
+    border-collapse: collapse; 
+    width: 100%; 
+    margin: 20px 0;
+}
+th, td { 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: left;
+}
+th { 
+    background: #34495e; 
+    color: white; 
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.result-box {
+    background: #e8f5e9;
+    border-left: 4px solid #4caf50;
+    padding: 15px;
+    margin: 20px 0;
+}
+.warning-box {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 15px;
+    margin: 20px 0;
+}
+.error-box {
+    background: #f8d7da;
+    border-left: 4px solid #dc3545;
+    padding: 15px;
+    margin: 20px 0;
+}
+.code-inline {
+    background: #ecf0f1;
+    padding: 2px 4px;
+    font-family: monospace;
+    font-size: 0.9em;
+}
+</style>
+</head>
+<body>
+
+<h1>BIOINFORMATICS EXAM - COMPLETE ANSWERS</h1>
+<p><strong>Student Name:</strong> _____________</p>
+<p><strong>Student ID:</strong> _____________</p>
+<p><strong>Date:</strong> June 30, 2025</p>
+<p><strong>Course:</strong> Bioinformatics</p>
+
+<hr>
+
+<h2>PART 1: Gene Prediction in Halanaerobium sp. MDAL1</h2>
+
+<h3>1.1 Methods</h3>
+<p>Gene prediction was performed using Glimmer3 with an ICM model trained on <em>H. prevolentius</em> genome.</p>
+
+<h4>Commands Used:</h4>
+<pre>
+# Build ICM model from reference genome
+/opt/glimmer3.02/bin/build-icm -r hprev.icm < hprev_genome.fasta
+
+# Find long ORFs for training
+/opt/glimmer3.02/bin/long-orfs -n -t 1.15 hprev_genome.fasta hprev.longorfs
+
+# Extract training sequences
+/opt/glimmer3.02/bin/extract -t hprev_genome.fasta hprev.longorfs > hprev.train
+
+# Build final ICM model
+/opt/glimmer3.02/bin/build-icm -r hprev_final.icm < hprev.train
+
+# Predict genes in target genome
+/opt/glimmer3.02/bin/glimmer3 halan.fasta hprev_final.icm halan_output
+</pre>
+
+<h3>1.2 Results Summary</h3>
+<div class="result-box">
+<p><strong>Genome:</strong> Halanaerobium sp. MDAL1 (circular, 6,229 bp)</p>
+<p><strong>Total genes predicted:</strong> 4</p>
+<p><strong>Coding density:</strong> ~86.3%</p>
+</div>
+
+<h4>Predicted Genes:</h4>
+<table>
+<tr>
+    <th>Gene ID</th>
+    <th>Start</th>
+    <th>End</th>
+    <th>Strand</th>
+    <th>Frame</th>
+    <th>Score</th>
+    <th>Length (bp)</th>
+    <th>Protein (aa)</th>
+</tr>
+<tr>
+    <td>orf00001</td>
+    <td>171</td>
+    <td>350</td>
+    <td>+</td>
+    <td>+3</td>
+    <td>11.68</td>
+    <td>180</td>
+    <td>60</td>
+</tr>
+<tr>
+    <td>orf00003</td>
+    <td>343</td>
+    <td>1626</td>
+    <td>+</td>
+    <td>+1</td>
+    <td>8.96</td>
+    <td>1,284</td>
+    <td>428</td>
+</tr>
+<tr>
+    <td>orf00004</td>
+    <td>1629</td>
+    <td>4733</td>
+    <td>+</td>
+    <td>+3</td>
+    <td>6.58</td>
+    <td>3,105</td>
+    <td>1,035</td>
+</tr>
+<tr>
+    <td>orf00005</td>
+    <td>5786</td>
+    <td>4971</td>
+    <td>-</td>
+    <td>-3</td>
+    <td>8.13</td>
+    <td>816</td>
+    <td>272</td>
+</tr>
+</table>
+
+<h4>First ORF Sequence (orf00001):</h4>
+<div class="sequence">
+>orf00001  171 350  len=180<br>
+ATGGGGGCAGTAATTGAAAGTAATTTAATTTCGGCTCAGAGATTGTTAAGTGATGCAGAA<br>
+ACAGATTTAACTGCTGCAAAATATGCCGTGCAGTTAAAAAAGACAGAAGTTTTGGCTGCA<br>
+GTAGAAAATATATATAAGAGCTTTACTGCAGGAGTATTAGGAGGTAATAGTAATGAATAA
+</div>
+
+<div class="warning-box">
+<h4>Note on mRNA Prediction:</h4>
+<p>Neither Glimmer3 nor FGENESB predict mRNA boundaries. They predict:</p>
+<ul>
+<li><strong>Glimmer3:</strong> CDS (coding sequences) only</li>
+<li><strong>FGENESB:</strong> CDS, promoters, and terminators (but not mRNA boundaries)</li>
+<li><strong>mRNA boundaries</strong> require specialized operon prediction tools</li>
+</ul>
+</div>
+
+<hr>
+
+<h2>PART 2: Functional Annotation via BLAST</h2>
+
+<h3>2.1 Translation</h3>
+<p>The first ORF (180 nt) was translated to protein sequence:</p>
+
+<div class="sequence">
+>orf00001_protein  60 aa<br>
+MGAVIESNLISAQRLLSDAETDLTAAKYAVQLKKTEVLAAVENIYKSFTAGVLGGNSNE*
+</div>
+
+<h3>2.2 BLAST Results</h3>
+<table>
+<tr>
+    <th>Hit</th>
+    <th>Accession</th>
+    <th>Description</th>
+    <th>E-value</th>
+    <th>Identity</th>
+    <th>Coverage</th>
+</tr>
+<tr>
+    <td>1</td>
+    <td>WP_110300817.1</td>
+    <td>TolC family protein [Halanaerobium congolense]</td>
+    <td>2e-29</td>
+    <td>100%</td>
+    <td>100%</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>WP_111572199.1</td>
+    <td>TolC family protein [Halanaerobium saccharolyticum]</td>
+    <td>3e-18</td>
+    <td>72.41%</td>
+    <td>98%</td>
+</tr>
+</table>
+
+<div class="result-box">
+<h4>Functional Prediction: TolC Family Efflux Protein</h4>
+<ul>
+<li>Outer membrane channel component</li>
+<li>Part of tripartite efflux systems</li>
+<li>Exports antibiotics and toxic compounds</li>
+<li>Important for multidrug resistance</li>
+<li>Highly conserved in Halanaerobium species</li>
+</ul>
+</div>
+
+<hr>
+
+<h2>PART 3: Complete Sequence Retrieval</h2>
+
+<h3>3.1 Retrieved Sequences</h3>
+<table>
+<tr>
+    <td><strong>Protein Accession</strong></td>
+    <td>WP_110300817.1</td>
+</tr>
+<tr>
+    <td><strong>Protein Length</strong></td>
+    <td>463 amino acids</td>
+</tr>
+<tr>
+    <td><strong>Nucleotide Length</strong></td>
+    <td>1,392 bp</td>
+</tr>
+<tr>
+    <td><strong>Organism</strong></td>
+    <td>Halanaerobium congolense strain UTICA-S4D12</td>
+</tr>
+<tr>
+    <td><strong>Location</strong></td>
+    <td>NZ_SOAA01000002.1 (82807-84198, complement)</td>
+</tr>
+</table>
+
+<div class="error-box">
+<h3>⚠️ CRITICAL FINDING: Truncated Gene Prediction</h3>
+<p><strong>orf00001 is only a fragment of the complete gene!</strong></p>
+<ul>
+<li>orf00001 (180 nt) = last 180 nt of 1,392 bp gene</li>
+<li>Encodes only C-terminal 60 aa of 463 aa protein</li>
+<li>Glimmer3 missed 87% of the protein</li>
+<li>True start codon is 1,212 nucleotides upstream</li>
+</ul>
+<pre>
+Full gene: [==========================================] 1,392 bp (463 aa)
+orf00001:                                          [====] 180 bp (60 aa)
+                                                     ↑
+                                           Incorrect start prediction
+</pre>
+</div>
+
+<hr>
+
+<h2>CCL4 Gene Analysis</h2>
+
+<h3>Gene Information</h3>
+<table>
+<tr>
+    <td><strong>Gene Symbol</strong></td>
+    <td>CCL4 (C-C motif chemokine ligand 4)</td>
+</tr>
+<tr>
+    <td><strong>Previous Name</strong></td>
+    <td>Act-2 cytokine gene (1999)</td>
+</tr>
+<tr>
+    <td><strong>Chromosome</strong></td>
+    <td>17 (forward strand)</td>
+</tr>
+<tr>
+    <td><strong>TSS</strong></td>
+    <td>36,103,827</td>
+</tr>
+</table>
+
+<h3>Feature Coordinates</h3>
+
+<h4>TATA Box:</h4>
+<ul>
+<li>Location: 28-23 bp upstream of TSS</li>
+<li>Calculation: 36,103,827 - 28 = 36,103,799</li>
+<li>Coordinates: chr17:36,103,799-36,103,804</li>
+<li>BED format: <span class="code-inline">chr17 36103798 36103804 TATA_box 1000 +</span></li>
+</ul>
+
+<h4>Palindromic Sequence:</h4>
+<ul>
+<li>Location: Exon 2, encoding amino acids 40-45</li>
+<li>Exon 2: chr17:36,104,528-36,104,642</li>
+<li>Estimated position: chr17:36,104,565-36,104,583</li>
+<li>BED format: <span class="code-inline">chr17 36104565 36104583 Palindrome_aa40-45 1000 +</span></li>
+</ul>
+
+<h3>Transcript Comparison</h3>
+<p><strong>NCBI:</strong> 1 transcript with 3 exons (NM_002984)</p>
+<p><strong>Ensembl:</strong> 3 transcripts:</p>
+
+<table>
+<tr>
+    <th>Transcript</th>
+    <th>ID</th>
+    <th>Length</th>
+    <th>Protein</th>
+    <th>Notes</th>
+</tr>
+<tr>
+    <td>CCL4-202</td>
+    <td>ENST00000615863.2</td>
+    <td>660 bp</td>
+    <td>92 aa</td>
+    <td>Canonical (MANE Select)</td>
+</tr>
+<tr>
+    <td>CCL4-203</td>
+    <td>ENST00000621626.1</td>
+    <td>552 bp</td>
+    <td>52 aa</td>
+    <td>40 aa shorter, alternative start</td>
+</tr>
+<tr>
+    <td>CCL4-201</td>
+    <td>ENST00000613947.1</td>
+    <td>1,774 bp</td>
+    <td>None</td>
+    <td>Retained intron, non-coding</td>
+</tr>
+</table>
+
+<hr>
+
+<h2>HTT (Huntington's Disease) Analysis</h2>
+
+<h3>biomaRt Query Code</h3>
+<pre>
+library(biomaRt)
+ensembl <- useMart("ensembl", dataset = "hsapiens_gene_ensembl")
+
+htt_info <- getBM(
+  attributes = c('hgnc_symbol', 'ensembl_gene_id', 'chromosome_name',
+                 'start_position', 'end_position', 'strand'),
+  filters = 'hgnc_symbol',
+  values = 'HTT',
+  mart = ensembl
+)
+
+htt_transcripts <- getBM(
+  attributes = c('ensembl_transcript_id', 'transcript_biotype'),
+  filters = 'hgnc_symbol',
+  values = 'HTT',
+  mart = ensembl
+)
+</pre>
+
+<h3>Results</h3>
+<div class="result-box">
+<h4>HTT Gene Information</h4>
+<ul>
+<li><strong>Gene:</strong> HTT (Huntingtin)</li>
+<li><strong>Chromosome:</strong> 4</li>
+<li><strong>Coordinates:</strong> 3,041,363 - 3,243,957</li>
+<li><strong>Number of transcripts:</strong> 23</li>
+<li><strong>CAG repeat location:</strong> Exon 1</li>
+</ul>
+</div>
+
+<h4>Disease Parameters</h4>
+<table>
+<tr>
+    <th>CAG Repeats</th>
+    <th>Clinical Significance</th>
+</tr>
+<tr>
+    <td>10-35</td>
+    <td>Normal</td>
+</tr>
+<tr>
+    <td>27-35</td>
+    <td>Intermediate (reduced penetrance)</td>
+</tr>
+<tr>
+    <td>36-39</td>
+    <td>Pathological (incomplete penetrance)</td>
+</tr>
+<tr>
+    <td>&gt;40</td>
+    <td>Full penetrance</td>
+</tr>
+<tr>
+    <td>&gt;60</td>
+    <td>Juvenile onset</td>
+</tr>
+</table>
+
+<div class="warning-box">
+<h4>Disease Characteristics</h4>
+<ul>
+<li><strong>Inheritance:</strong> Autosomal dominant</li>
+<li><strong>Anticipation:</strong> Yes, especially with paternal transmission</li>
+<li><strong>Mechanism:</strong> Expanded polyglutamine tract causes protein aggregation</li>
+<li><strong>Affected regions:</strong> Striatum (caudate and putamen)</li>
+</ul>
+</div>
+
+<hr>
+
+<h2>Summary</h2>
+<div class="result-box">
+<h3>Key Learnings</h3>
+<ol>
+<li><strong>Gene Prediction:</strong> Automated tools can miss gene starts - validation is essential</li>
+<li><strong>Functional Annotation:</strong> BLAST reveals true gene boundaries and functions</li>
+<li><strong>Transcript Variation:</strong> Different databases may report different isoforms</li>
+<li><strong>Disease Genetics:</strong> Trinucleotide repeats show clear threshold effects</li>
+<li><strong>Tool Integration:</strong> Combining multiple tools provides more accurate results</li>
+</ol>
+</div>
+
+<h3>Files Submitted</h3>
+<ol>
+<li>halan_output.predict - Glimmer3 predictions</li>
+<li>first_orf.fasta - First ORF nucleotide sequence</li>
+<li>first_orf_protein.fasta - Translated protein</li>
+<li>all_glimmer_cds.txt - All predicted CDS</li>
+<li>WP_110300817_protein.fasta - Complete TolC protein</li>
+<li>WP_110300817_nucleotide.fasta - Complete TolC nucleotide</li>
+<li>ccl4_features_final.bed - CCL4 feature coordinates</li>
+<li>biomart_htt_query.R - HTT analysis script</li>
+<li>Part comparison and summary files</li>
+</ol>
+
+</body>
+</html>
